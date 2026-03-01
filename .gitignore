@@ -1,0 +1,16 @@
+# Virtual environment
+scamguard_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights (optional if large)
+models/*.onnx
+
+# Debug files
+debug_spectrogram.png
+
+# OS files
+.DS_Store
+Thumbs.db

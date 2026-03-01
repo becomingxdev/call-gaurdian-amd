@@ -40,7 +40,7 @@ def run_pipeline():
                 
                 # 5. Determine Verdict
                 # Confidence > 50 means likely human/real.
-                if confidence >= 30.0:
+                if confidence >= 40.0:
                     verdict = "✅ HUMAN / REAL"
                     status_color = "REAL"
                 else:
